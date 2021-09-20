@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FatHead">
+      <HintPath>..\..\CommonCode\FatHead\bin\Release\netstandard2.0\FatHead.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
